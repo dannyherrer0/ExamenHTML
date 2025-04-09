@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Poppins,sans-serif;
+  background-color: #1d1d42;
+}
+.logo{
+    color:#ff702a;
+}
+.title{
+    color: #ff702a;
+    text-align: center;
+}
+.text{
+    color: white;
+    text-align: center;
+}
+
+.button{
+    font-family: Poppins, sans-serif;
+    color: #ff702a;
+}
+.burguer-home{
+    height: 80%;
+    position: left;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #1d1d42;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+/* responsive */
+nav.active {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+nav h2.logo {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+nav .bars {
+  position: absolute;
+  right: 1rem;
+  font-size: xx-large;
+  display: none;
+}
+
+ul.nav-links {
+  display: flex;
+}
+
+/* responsive */
+nav.active ul.nav-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+li.nav-link {
+  list-style: none;
+  margin: 0.5rem 1rem;
+  padding: 0.4rem;
+  display: flex;
+  align-items: center;
+}
+
+li.nav-link:hover {
+  color: #ff702a;
+}
+
+
+
+li.nav-link a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Gill Sans", Poppins, sans-serif;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 800px) {
+  nav .bars {
+    display: block;
+  }
+
+  nav .nav-links {
+    display: none;
+  }
+}
+.card {
+    width: 160px;
+    padding: 12px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    margin: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .card h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: var(--color-primary);
+  }
+  
+  .card p {
+    font-size: 14px;
+  }
+  
+  .line{
+    color: #ff702a;
+    line-height: normal;
+  }
+
+
