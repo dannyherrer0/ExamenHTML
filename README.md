@@ -28,3 +28,5 @@ Ajuste de imágenes y contenido para pantallas pequeñas.
 ## 5. Pie de Página Informativo
 Información de contacto, como dirección, teléfono y enlaces a redes sociales.
 Enlaces rápidos al menú de navegación y a las políticas del sitio.
+## Enlace netlify
+vista de la pagina Web Hamburguesas Artesanales https://hamburguesasartesanale.netlify.app/
